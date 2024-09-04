@@ -1,0 +1,190 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://gdoc2md.com/
+Subject: Convert Google Doc to Markdown
+Date: Wed, 4 Sep 2024 02:54:24 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--6XGLTZGYPbg33dkTsRwodAAodDeCTzobuF4DPkEGrm----"
+
+
+------MultipartBoundary--6XGLTZGYPbg33dkTsRwodAAodDeCTzobuF4DPkEGrm----
+Content-Type: text/html
+Content-ID: <frame-3E6E977B8E84B27189C16BA8C8783F0A@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://gdoc2md.com/
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-70bc4004-c760-45ee-b50f-ed02eabaa246@mhtml.blink" />
+    
+    <title>Convert Google Doc to Markdown</title>
+    <!-- Include Source Sans because it's the default for Google Docs -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header id="app-header">
+      <h1>Convert Google Docs to Markdown</h1>
+
+      <form id="settings">
+        <strong><span aria-hidden="true">⚙️</span> Settings:</strong>
+
+        <label>
+          Linkable Headings:
+          <select name="headingIds">
+            <option value="hidden">None</option>
+            <option value="html">Plain Markdown (HTML)</option>
+            <option value="extended">Extended Markdown</option>
+          </select>
+        </label>
+
+        <label>
+          Code Blocks:
+          <select name="codeBlocks">
+            <option value="indented">Indented</option>
+            <option value="fenced">Fenced (```)</option>
+          </select>
+        </label>
+
+        <label>
+          Suggested changes:
+          <select name="suggestions">
+            <option value="show">Show suggestions</option>
+            <option value="accept">Accept/use suggestions</option>
+            <option value="reject">Reject/ignore suggestions</option>
+          </select>
+        </label>
+      </form>
+    </header>
+
+    <main>
+      <div id="input-area">
+        <p class="instructions" style="display: none;">Paste Google Docs text here…</p>
+        <div id="input" class="input-field" contenteditable="" autocomplete="off"><p dir="ltr">Proteins play a crucial role in cancer development and progression, making them attractive targets for cancer drug discovery. Here's a 400-word overview:</p>
+<p dir="ltr">Proteins as drug targets in cancer:</p>
+<p dir="ltr">1. _<i>Oncoproteins</i>_: Proteins that promote cancer cell growth, survival, and proliferation, such as HER2, EGFR, and BCR-ABL.</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">2. _<i>Tumor suppressor proteins</i>_: Proteins that normally inhibit cancer cell growth, but are often mutated or downregulated in cancer, like p53 and BRCA1/2.</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">3. _<i>Angiogenic proteins</i>_: Proteins involved in tumor angiogenesis, such as VEGF and PDGF.</p>
+<p dir="ltr"></p>
+<p dir="ltr">Strategies for targeting proteins in cancer:</p>
+<p dir="ltr">1. _<i>Small molecule inhibitors</i>_: Designed to bind and inhibit specific protein activity, like kinase inhibitors.</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">2. _<i>Monoclonal antibodies</i>_: Targeting specific proteins on cancer cell surfaces, such as trastuzumab (Herceptin).</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">3. _<i>Protein-protein interaction inhibitors</i>_: Disrupting interactions between proteins, like apoptosis inhibitors.</p>
+<p dir="ltr"></p>
+<p dir="ltr">Advantages of targeting proteins in cancer:</p>
+<p dir="ltr">1. _<i>Specificity</i>_: Targeting specific proteins can reduce off-target effects and toxicity.</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">2. _<i>Efficacy</i>_: Protein-targeting drugs can be highly effective in inhibiting cancer cell growth.</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">3. _<i>Personalized medicine</i>_: Identifying specific protein biomarkers can guide treatment decisions.</p>
+<p dir="ltr"></p>
+<p dir="ltr">Examples of successful protein-targeting cancer drugs:</p>
+<p dir="ltr">1. _<i>Herceptin</i>_ (trastuzumab): Targets HER2-positive breast cancer cells.</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">2. _<i>Gleevec</i>_ (imatinib): Inhibits BCR-ABL kinase in chronic myeloid leukemia.</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">3. _<i>Avastin</i>_ (bevacizumab): Targets VEGF to inhibit tumor angiogenesis.</p>
+<p dir="ltr"></p>
+<p dir="ltr">Challenges and future directions:</p>
+<p dir="ltr">1. _<i>Resistance mechanisms</i>_: Cancer cells can develop resistance to protein-targeting drugs.</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">2. _<i>Target heterogeneity</i>_: Tumors often exhibit multiple protein targets, requiring combination therapies.</p>
+<p dir="ltr"><br>
+</p>
+<p dir="ltr">3. _<i>Biomarker identification</i>_: Developing biomarkers to guide protein-targeting treatment decisions.</p>
+<p dir="ltr"></p>
+<p dir="ltr">In summary, proteins play a vital role in cancer, and targeting them has led to successful cancer therapies. Ongoing research focuses on overcoming challenges, identifying new protein targets, and developing innovative strategies to harness the power of protein-targeting drugs in cancer treatment.</p></div>
+      </div>
+
+      <div id="output-area">
+        <div id="button-container">
+          <button id="download-button" style="">Download Markdown</button>
+          <button id="copy-button" style="">Copy Markdown</button>
+        </div>
+        <p class="instructions" style="display: none;">…and get your Markdown here</p>
+        <textarea id="output" class="input-field" autocomplete="off"></textarea>
+      </div>
+    </main>
+
+    <footer id="app-footer">
+      <p>Source code available on <a href="https://github.com/mr0grog/google-docs-to-markdown" target="_blank" rel="noopener">Github</a>.</p>
+    </footer>
+    
+  
+
+</body></html>
+------MultipartBoundary--6XGLTZGYPbg33dkTsRwodAAodDeCTzobuF4DPkEGrm----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-70bc4004-c760-45ee-b50f-ed02eabaa246@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+html, body { background: rgb(238, 238, 238); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; height: 100%; margin: 0px; }
+
+body { display: flex; flex-direction: column; }
+
+main { display: flex; flex: 1 1 auto; flex-direction: row; justify-content: space-between; width: 100%; padding: 1em 2em; }
+
+#app-header { flex: 0 0 auto; margin: 0px; padding: 1em 2em; }
+
+#app-header h1 { margin: 0px 0px 0.5em; padding: 0px; }
+
+#settings { font-size: 0.75rem; display: flex; flex-flow: wrap; justify-content: flex-start; align-items: baseline; gap: 1em; }
+
+#settings input, #settings select { font-size: inherit; }
+
+.input-field { border: 1px solid rgb(204, 204, 204); font-size: 1em; overflow: auto; padding: 1em; }
+
+#input-area { position: relative; width: calc(50% - 1em); }
+
+.instructions { font-size: 2em; font-weight: bold; opacity: 0.5; padding: 0px 1em; position: absolute; top: 1em; left: 0px; right: 0px; text-align: center; }
+
+#input { position: absolute; inset: 0px; z-index: 1; }
+
+#output-area { position: relative; width: calc(50% - 1em); }
+
+#output { background: transparent; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 1; white-space: pre-wrap; }
+
+#app-footer { flex: 0 0 auto; margin: 0px; padding: 0px 2em 1em; font-style: italic; }
+
+#button-container { position: absolute; right: 0px; top: 0px; z-index: 2; }
+
+#input h1, #input h2, #input h3, #input h4, #input h5, #input h6 { font-weight: normal; text-decoration: none; }
+
+#input a[id^="id."]::before, #input a[name^="id."]::before { content: "※ "; }
+------MultipartBoundary--6XGLTZGYPbg33dkTsRwodAAodDeCTzobuF4DPkEGrm----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.googleapis.com/css?family=Source+Sans+Pro
+
+@charset "utf-8";
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lujVj9_mf.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lujVj9_mf.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lujVj9_mf.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lujVj9_mf.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lujVj9_mf.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lujVj9_mf.woff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--6XGLTZGYPbg33dkTsRwodAAodDeCTzobuF4DPkEGrm------
